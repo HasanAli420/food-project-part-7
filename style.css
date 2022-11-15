@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.order{
+    background: #f9f9f9;
+    padding:30px 9% ;
+}
+
+.order .title h2{
+    color: #333;
+    text-align: center;
+    font-size: 40px;
+}
+
+.order .title h2 span{
+    color: red;
+}
+
+.order .title {
+    padding: 80px;
+}
+
+.flex-one{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.flex-two{
+    display: flex;
+    gap: 10px;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+.btn{
+    background: #fff;
+    border: 1px solid red;
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+
+.order .container{
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.order .container .image{
+    flex: 1 1 350px;
+    object-fit: cover;
+}
+
+.order .container .image img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.order .container form{
+    flex: 1 1 500px;
+}
+
+
+.order .container form input{
+    border: 1px solid rgba(0,0,0,.2);
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
+
+.order .container form textarea{
+    border: 1px solid rgba(0,0,0,.2);
+    width: 100%;
+}
+
+
+
+
+/* footer are */
+
+.footer{
+    background: black;
+    padding: 60px 0;
+}
+
+.footer .socil-link{
+    text-align: center;
+}
+
+.footer .socil-link a{
+    display: inline-block;
+    background: #fff;
+    border: 1px solid red;
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #ff0000;
+    margin: 5px 10px;
+}
+
+.footer .powerby{
+    margin-top: 20px;
+}
+
+.footer .powerby h2{
+    color: #fff;
+    text-align: center;
+}
+
+.footer .powerby h2 span{
+    color: red;
+}
+
+
